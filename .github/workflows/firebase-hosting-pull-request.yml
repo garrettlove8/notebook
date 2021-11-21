@@ -10,10 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ryank90/action-hugo-firebase-deploy@master
-      with:
-        firebase-token: ${{ secrets.firebase_token }}
-        alias: ${{ alias }} // Optional
-        hugo-params: -D // Optional. Any params for the `hugo` command. [Refer doc here](https://gohugo.io/commands/hugo/) 
+        with:
+          firebase-token: ${{ secrets.firebase_token }}
+          alias: ${{ alias }} // Optional
+          hugo-params: -D // Optional. Any params for the `hugo` command. [Refer doc here](https://gohugo.io/commands/hugo/) 
       # - name: Setup Hugo
       #   uses: peaceiris/actions-hugo@v2
       #   with:
