@@ -1,6 +1,7 @@
 ---
 title: "Design Patterns"
 weight: 1
+draft: false
 bookCollapseSection: true
 identifier: design-patterns
 menu:

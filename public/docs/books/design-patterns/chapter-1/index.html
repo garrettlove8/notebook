@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Chapter 1. Introduction #   Object oriented design is hard as it is and even harder, if not impossible, to get right the first time designing something for a new problem  You must find the right granularity, interfaces and inheritance hierarchies   Design patterns allow devs to not have to reinvent the wheel when designing software  On a personal level this is ideal when you&rsquo;ve already solved a problem at least once before, why resolve the problem over and over again when you could use the same pattern you had previously used   Design patterns describe how to reuse designs and architectures Design patterns can improve maintainability and documentation of systems  This is because they create a specification for object and class interations as well as their underlying intent    1.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Chapter 1" />
+<meta property="og:description" content="Chapter 1. Introduction #   Object oriented design is hard as it is and even harder, if not impossible, to get right the first time designing something for a new problem  You must find the right granularity, interfaces and inheritance hierarchies   Design patterns allow devs to not have to reinvent the wheel when designing software  On a personal level this is ideal when you&rsquo;ve already solved a problem at least once before, why resolve the problem over and over again when you could use the same pattern you had previously used   Design patterns describe how to reuse designs and architectures Design patterns can improve maintainability and documentation of systems  This is because they create a specification for object and class interations as well as their underlying intent    1." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://garrettlove-d-dev.web.app/docs/books/design-patterns/chapter-1/" /><meta property="article:section" content="docs" />
+
+
+
+<title>Chapter 1 | garrettlove.dev</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.158616f6a1261e6d0cf327acb3b84085e5b98d241710727e92d0ee54952a05a1.js" integrity="sha256-FYYW9qEmHm0M8yess7hAheW5jSQXEHJ&#43;ktDuVJUqBaE=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>garrettlove.dev</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-010cc3a6dda69f98986133a7094047b7" class="toggle" checked />
+    <label for="section-010cc3a6dda69f98986133a7094047b7" class="flex justify-between">
+      <a href="https://garrettlove-d-dev.web.app/docs/books/" class="">Books</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8685e984ab5a34c187bdd30626707355" class="toggle" checked />
+    <label for="section-8685e984ab5a34c187bdd30626707355" class="flex justify-between">
+      <a href="https://garrettlove-d-dev.web.app/docs/books/design-patterns/" class="">Design Patterns</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://garrettlove-d-dev.web.app/docs/books/design-patterns/chapter-1/" class=" active">Chapter 1</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Chapter 1</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#11-what-is-a-design-pattern">1.1 What is a Design Pattern?</a></li>
+    <li><a href="#13-describing-design-patterns">1.3 Describing Design Patterns</a>
+      <ul>
+        <li><a href="#pattern-name-and-classification">Pattern Name and Classification</a></li>
+        <li><a href="#intent">Intent</a></li>
+        <li><a href="#also-known-as">Also Known As</a></li>
+        <li><a href="#motivation">Motivation</a></li>
+        <li><a href="#applicability">Applicability</a></li>
+        <li><a href="#structure">Structure</a></li>
+        <li><a href="#participants">Participants</a></li>
+        <li><a href="#collaborations">Collaborations</a></li>
+        <li><a href="#consequences">Consequences</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#sample-code">Sample Code</a></li>
+        <li><a href="#known-uses">Known Uses</a></li>
+        <li><a href="#related-patterns">Related Patterns</a></li>
+      </ul>
+    </li>
+    <li><a href="#14-the-catalog-of-design-patterns">1.4 The Catalog of Design Patterns</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="chapter-1-introduction">
+  Chapter 1. Introduction
+  <a class="anchor" href="#chapter-1-introduction">#</a>
+</h1>
+<ul>
+<li>Object oriented design is hard as it is and even harder, if not impossible, to get right the first time designing something for a new problem
+<ul>
+<li>You must find the right granularity, interfaces and inheritance hierarchies</li>
+</ul>
+</li>
+<li>Design patterns allow devs to not have to reinvent the wheel when designing software
+<ul>
+<li>On a personal level this is ideal when you&rsquo;ve already solved a problem at least once before, why resolve the problem over and over again when you could use the same pattern you had previously used</li>
+</ul>
+</li>
+<li>Design patterns describe how to reuse designs and architectures</li>
+<li>Design patterns can improve maintainability and documentation of systems
+<ul>
+<li>This is because they create a specification for object and class interations as well as their underlying intent</li>
+</ul>
+</li>
+</ul>
+<h2 id="11-what-is-a-design-pattern">
+  1.1 What is a Design Pattern?
+  <a class="anchor" href="#11-what-is-a-design-pattern">#</a>
+</h2>
+<ul>
+<li>Describes a problem that will come up repeatedly and an approach to its solution that can be easily be replicated over and over</li>
+<li>A pattern contains four elements
+<ol>
+<li>The <strong>pattern name</strong> describes the pattern in one or two words. Essential for letting us design at a higher level of abstraction</li>
+<li>The <strong>problem</strong> covers when to use the pattern. It also explains the problem along with its context
+<ul>
+<li>Might describe conditions that must be met in order for the pattern to make sense</li>
+</ul>
+</li>
+<li>The <strong>solution</strong> covers the pieces that make up the design</li>
+<li>The <strong>consequences</strong> are the results and trade-offs of using a pattern
+<ul>
+<li>Often space and time trade-offs, as well as language and implementation issues</li>
+<li>It is important to explicitly list the consequences so we can understand and evaluate them</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Design patterns can be different depending on the perspective and level of granularity
+<ul>
+<li>This book focuses on <em>descriptions of communicating objects and classes that are customized to solve a general design problem in a particular context</em></li>
+</ul>
+</li>
+<li>Identifies the classes and instances, their roles and how they work together, as well as what each of their responsibilities are</li>
+</ul>
+<h2 id="13-describing-design-patterns">
+  1.3 Describing Design Patterns
+  <a class="anchor" href="#13-describing-design-patterns">#</a>
+</h2>
+<ul>
+<li>Patterns are described with a standardized template</li>
+</ul>
+<h3 id="pattern-name-and-classification">
+  Pattern Name and Classification
+  <a class="anchor" href="#pattern-name-and-classification">#</a>
+</h3>
+<ul>
+<li>Important because it will become part of your design vocabulary</li>
+</ul>
+<h3 id="intent">
+  Intent
+  <a class="anchor" href="#intent">#</a>
+</h3>
+<ul>
+<li>Addresses what the pattern does, what the rationale is, and what problem it is used to solve</li>
+</ul>
+<h3 id="also-known-as">
+  Also Known As
+  <a class="anchor" href="#also-known-as">#</a>
+</h3>
+<ul>
+<li>Other well-known name for the pattern</li>
+</ul>
+<h3 id="motivation">
+  Motivation
+  <a class="anchor" href="#motivation">#</a>
+</h3>
+<ul>
+<li>A scenario that shows a problem and how the pattern solves it</li>
+</ul>
+<h3 id="applicability">
+  Applicability
+  <a class="anchor" href="#applicability">#</a>
+</h3>
+<ul>
+<li>Covers situations in which the pattern can be used</li>
+<li>Examples of bad designs that the pattern can help with</li>
+<li>How to recognize these situations</li>
+</ul>
+<h3 id="structure">
+  Structure
+  <a class="anchor" href="#structure">#</a>
+</h3>
+<ul>
+<li>Visually shows the classes in the pattern work togetherr using Object Modeling Technique (OMT) and interaction diagrams</li>
+</ul>
+<h3 id="participants">
+  Participants
+  <a class="anchor" href="#participants">#</a>
+</h3>
+<ul>
+<li>Classes and/or objects in the pattern and their responsibilities</li>
+</ul>
+<h3 id="collaborations">
+  Collaborations
+  <a class="anchor" href="#collaborations">#</a>
+</h3>
+<ul>
+<li>How the participants work together to accomplish their responsibilities</li>
+</ul>
+<h3 id="consequences">
+  Consequences
+  <a class="anchor" href="#consequences">#</a>
+</h3>
+<ul>
+<li>Covers the trade-offs and considerations that must be understood when using a pattern</li>
+</ul>
+<h3 id="implementation">
+  Implementation
+  <a class="anchor" href="#implementation">#</a>
+</h3>
+<ul>
+<li>Language-specific issues</li>
+<li>Pitfalls, hints, or techniques to be aware of when using a pattern</li>
+</ul>
+<h3 id="sample-code">
+  Sample Code
+  <a class="anchor" href="#sample-code">#</a>
+</h3>
+<ul>
+<li>Code snippets that illustrate how to implement a pattern</li>
+</ul>
+<h3 id="known-uses">
+  Known Uses
+  <a class="anchor" href="#known-uses">#</a>
+</h3>
+<ul>
+<li>Examples of the pattern being used in real-world situations</li>
+</ul>
+<h3 id="related-patterns">
+  Related Patterns
+  <a class="anchor" href="#related-patterns">#</a>
+</h3>
+<ul>
+<li>Closely related patterns, important difference between them, and other patterns that should be used with the one being discussed</li>
+</ul>
+<h2 id="14-the-catalog-of-design-patterns">
+  1.4 The Catalog of Design Patterns
+  <a class="anchor" href="#14-the-catalog-of-design-patterns">#</a>
+</h2>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#11-what-is-a-design-pattern">1.1 What is a Design Pattern?</a></li>
+    <li><a href="#13-describing-design-patterns">1.3 Describing Design Patterns</a>
+      <ul>
+        <li><a href="#pattern-name-and-classification">Pattern Name and Classification</a></li>
+        <li><a href="#intent">Intent</a></li>
+        <li><a href="#also-known-as">Also Known As</a></li>
+        <li><a href="#motivation">Motivation</a></li>
+        <li><a href="#applicability">Applicability</a></li>
+        <li><a href="#structure">Structure</a></li>
+        <li><a href="#participants">Participants</a></li>
+        <li><a href="#collaborations">Collaborations</a></li>
+        <li><a href="#consequences">Consequences</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#sample-code">Sample Code</a></li>
+        <li><a href="#known-uses">Known Uses</a></li>
+        <li><a href="#related-patterns">Related Patterns</a></li>
+      </ul>
+    </li>
+    <li><a href="#14-the-catalog-of-design-patterns">1.4 The Catalog of Design Patterns</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

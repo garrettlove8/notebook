@@ -1,6 +1,7 @@
 ---
 title: "Chapter 1"
 weight: 1
+draft: false
 menu:
   docs:
     parent: design-patterns

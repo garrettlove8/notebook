@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Patterns on garrettlove.dev</title>
+    <link>https://garrettlove-d-dev.web.app/docs/books/design-patterns/</link>
+    <description>Recent content in Design Patterns on garrettlove.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://garrettlove-d-dev.web.app/docs/books/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1</title>
+      <link>https://garrettlove-d-dev.web.app/docs/books/design-patterns/chapter-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://garrettlove-d-dev.web.app/docs/books/design-patterns/chapter-1/</guid>
+      <description>Chapter 1. Introduction #   Object oriented design is hard as it is and even harder, if not impossible, to get right the first time designing something for a new problem  You must find the right granularity, interfaces and inheritance hierarchies   Design patterns allow devs to not have to reinvent the wheel when designing software  On a personal level this is ideal when you&amp;rsquo;ve already solved a problem at least once before, why resolve the problem over and over again when you could use the same pattern you had previously used   Design patterns describe how to reuse designs and architectures Design patterns can improve maintainability and documentation of systems  This is because they create a specification for object and class interations as well as their underlying intent    1.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 ---
 title: "Books"
 date: 2021-11-20T16:03:25-05:00
-draft: true
+draft: false
 weight: 1
 bookCollapseSection: true
 identifier: books
