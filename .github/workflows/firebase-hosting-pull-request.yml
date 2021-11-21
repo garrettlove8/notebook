@@ -9,11 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: true
       - uses: ryank90/action-hugo-firebase-deploy@master
         with:
           firebase-token: ${{ secrets.firebase_token }}
           alias: ${{ alias }} // Optional
-          hugo-params: -D // Optional. Any params for the `hugo` command. [Refer doc here](https://gohugo.io/commands/hugo/) 
+          # hugo-params: -D // Optional. Any params for the `hugo` command. [Refer doc here](https://gohugo.io/commands/hugo/) 
       # - name: Setup Hugo
       #   uses: peaceiris/actions-hugo@v2
       #   with:
