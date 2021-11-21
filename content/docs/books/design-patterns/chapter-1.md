@@ -76,5 +76,19 @@ menu:
 ### Related Patterns
 - Closely related patterns, important difference between them, and other patterns that should be used with the one being discussed
 
-## 1.4 The Catalog of Design Patterns
+## 1.5
+- Patterns are categorize by two criteria
+    - Purpose and scope
+- Purpose
+    - Creation
+        - Concerned with creating objects
+    - Structural
+        - Handle the composition of classes or objects
+    - Behavioral
+        - The ways classes or objects interact and distribute responsibility between one another
+- Scope
+    - Describes whether a pattern belongs to a class or object
+    - Class patterns handle class relationships
+    - Object patterns handle object relationships
 
+**Note: At this point, I moved onto actually reading about the patterns**
