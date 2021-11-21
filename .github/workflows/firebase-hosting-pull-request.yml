@@ -9,21 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          submodules: true
-      - uses: ryank90/action-hugo-firebase-deploy@master
+          hugo-version: '0.89.4'
+          extended: true
+      - run: cd notebook/ && hugo
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          firebase-token: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_GARRETTLOVE_D_DEV }}
-          # alias: ${{ alias }} // Optional
-          # hugo-params: -D // Optional. Any params for the `hugo` command. [Refer doc here](https://gohugo.io/commands/hugo/) 
-      # - name: Setup Hugo
-      #   uses: peaceiris/actions-hugo@v2
-      #   with:
-      #     hugo-version: '0.89.4'
-      #     extended: true
-      # - run: cd notebook/ && hugo
-      # - uses: FirebaseExtended/action-hosting-deploy@v0
-      #   with:
-      #     repoToken: '${{ secrets.GITHUB_TOKEN }}'
-      #     firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GARRETTLOVE_D_DEV }}'
-      #     projectId: garrettlove-d-dev
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GARRETTLOVE_D_DEV }}'
+          projectId: garrettlove-d-dev
