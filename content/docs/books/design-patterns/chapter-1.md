@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1"
+title: "Chapter 1 (Design Patterns)"
 weight: 1
 draft: false
 menu:
