@@ -55,3 +55,56 @@ menu:
 
 # Chapter 5
 ## Enterprise Companies: Consistent Product Innovation
+- After going through the growth state, companies still need to innovate with the product(s) they offer
+  - Not just tweak and optimize existing products (called `value capture`)
+  - Must develop each product to its full potential
+- Death of enterprise companies is slow
+  - Starts to happen when the company only leverages the value and brand it had create years or decades earlier
+  - Often happens once the company is publicly traded
+  - So many stateholders to the point that exciting new initiatives or ventures are shut down because it could jeopardize the core business
+  - Could also come from too many obsticles to make it worth people's effort to revitalize the business
+- Symptoms are clear
+  - Lower morale, lack of innovation, and taking more time to launch products
+- The company has likely achieved the mission it had as a startup and people don't know what's next
+- People in different roles now complain about different things
+  - **Product** teams complain about lack of vision, empowerment, and that it takes too long for decisions to be made
+  - **Leadership** is frustrated by the lack of innovation from the product teams
+    - This leads them to acquire other companies or setup innovation labs which usually don't give them what they want
+
+# Chapter 6
+## The Root Causes of Failed Product Efforts
+- Companies use a flawed approach to creating new products
+
+![Figure 6.1](../../../../static/inspired/figure-6-1.png "Figure 6.1")
+
+- `Ideas` come from either inside the companie or outside
+  - Ex: Inside the company may be from executives, key stakeholders, or business owners
+  - Ex: Outside the company may be from current or prospective customers
+- Ideas are then prioritized into a `roadmap`
+  - First reason: Get teams to work on the most important thing first
+  - Second reason: Predict when things will be ready
+  - Leadership will then hold a quarterly or annual planning session
+    - Product roadmap is negotiated during this time
+    - Sounds like the t-shirt sizing stuff that just happened at Tendo
+  - They'll also determine a `business case` for each item
+    - This answers two questions: `1. How much will it make?` and `2. How much will it cost?`
+- Once the roadmap is done the product manage will talk to stakeholders to determine the `requirements`
+  - Could be user stories or functional
+- The requirements are given to the `design` team
+- Designs are given to the engineers to `build` the product
+  - Usually where agile workflows are introduced
+- The product then goes to QA for `testing`
+  - Ideally testing happens throughout development
+  - QA ensure the product works as advertised and doesn't result in other problems (called `regressions`)
+- Once QA approves the product is `deployed` and available to customers
+
+
+- This is how most companies work, while complaining about the lack of innovation
+- While engineers might be following as much of an *agile workflow* as they can, the overall process is more *waterfall*
+
+### Problems This Process
+1. The source of ideas
+  - Leads to sales-driven specials and stakeholder-driven products
+  - Lack of team empowerment
+    - Teams are really just there to implement what they're told
+2. 
