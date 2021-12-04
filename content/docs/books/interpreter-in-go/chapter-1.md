@@ -14,4 +14,5 @@ menu:
 
 ## 1.5 - Start of a REPL
 - `Read` `Eval` `Print` `Loop`
-- 
+- This is essentially a shell for a language
+    - Sometimes called a `console`, or `interactive mode`

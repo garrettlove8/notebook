@@ -107,4 +107,56 @@ menu:
   - Leads to sales-driven specials and stakeholder-driven products
   - Lack of team empowerment
     - Teams are really just there to implement what they're told
-2. 
+2. While finding business casesfor ideas is generally good, the way they are found in order to define a prioritized roadmap is bad
+  - The two key questions `what will it cost?` and `what will it make?` are impossible to answer at this stage because they both depend on how good the solution is
+    - One of the biggest lessons is `knowing what we can't know` and at this stage we can't know the answer to either of these two questions
+  - Because there isn't yet a defined solution engineering teams can't accurately give estimates for how much effort will be needed
+    - They are often pushed into doing T-Shirt excersises to get an answer
+3. The roadmap is for everyone other than the teams actually solving the problem and building the product
+  - Ex: Marketing wants a feature for a campaign, sales wants a feature for a customer, etc.
+  - There are two truths about product
+    1. At least half the ideas on a roadmap aren't going to work
+      - Really good teams assume at least three quarters of the ideas won't work
+    2. With the remaining ideas that do have potential, it usually takes serveral iterations before they're able to deliver the necessary business value
+      - Called `time to money`
+4. This really isn't product management, but rather project management
+  - All that's happening is the gathering and documenting of requirements for engineers
+  - Full 180 away from product management
+5. Too late to get the real benfit from designers
+  - `Lipstick on the pig` model where we have something ugly and we're trying to make it look presentable
+6. Engineers get brought it too late
+  - Engineers are usually the best single source of innovatio
+  - If you're not bringing your engineers to the party you missing out on half their value
+7. Agile principles and benefits are brough in too late
+  - This only uses Agile for the delivery portion of the process
+  - The rest of the org is not Agile
+8. Everything is project based instead of product based
+  - The company fund, staff, pushes, and launches projects
+  - Projects are a type of output, where as product is about outcome
+  - Leads to abandoned projects
+9. Customer validation happens too late (at or towards the end)
+  - One of the biggest risks is building releasing something and finding out that it wasn't what was needed
+  - This is one of the more expensive processes to come up with new products
+10. The biggest loss is in the oppertunity cost
+
+# Chapter 7
+## Beyond Lean and Agile
+- There is no silver bullet to create products, whether or not you want to believe this is irrelivent, as you'll figure it out one way or another
+- While the way lean and agile are implemented may be different and change across teams, the core principles are here to stay
+- Many teams claim to follow Lean principles, yet they spend months working towards an MVP which they don't know if it will sell
+  - Alternatively they test everything and end up moving too slow
+- The best product teams do Lean and Agile differently
+  1. Risks are address before anything gets built
+    - `Value risk` will customers buy it
+    - `Usability risk` can customers figure out how to use it
+    - `Feasibility risk` can we actually build what we're thinking about
+    - `Business viability risk` Does this solution work for other parts of our business (sales, marketing, finance, legal, etc.)
+  2. Products are defined *collaboratively*
+    - No more product manager defining the requirements, then the designer designs the product that fulfills the requirements, and lastly the engineer builds the product to implement what the designer put together
+    - Everyone works side-by-side in a give-and-take fashion to build something that customers will love
+  3. Focus on solving problems, not implementing features
+    - Roadmaps are all about output
+    -  The focus should be on business results via solutions that address the underlying problem(s)
+
+# Chapter 8
+## Key Concepts
