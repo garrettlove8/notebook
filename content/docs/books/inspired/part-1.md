@@ -160,3 +160,64 @@ menu:
 
 # Chapter 8
 ## Key Concepts
+- These concepts are referred to throughout the book and are foundational to modern product work
+
+### Holistic Product
+- The term `product` in this modern world doesn't just refer to features of the physical/digital product that the customer is using
+  - Instead it refers to everything invloved in delivering the business value that solves the problem
+- Ex: Consider Amazon.com, the product being delivered is not limited to features offers by the website, but also the design of the website, the experience of buying or returning something, etc. Note that the physical products sold by vendors through Amazon.com are not included in the product that is Amazon.com.
+
+### Continuous Discovery and Delivery
+- Two high-level things all product teams must do
+  1. Discover the product we will build
+  2. Deliver that product to customers
+- Discovery and delivery happen in parallel
+  - Discovery is the primary task of both the product manager and the designer
+  - The engineers mostly work on the delivery part
+  - There is cross over, the designers and product manager provide clarification to engineers on the intended behavior while the engineers may help with tech perspective on the discovery process
+
+### Product Discovery
+- This is where we address all the possible risks before building anything
+  - As a result, it is important that all disciplines are invloved (product, design, and engineering)
+- Quickly determine which ideas are good and which are bad
+- The output of discovery is a `validated product backlog`
+- Requires answers to four critical questions
+  1. Will the user buy or use this?
+  2. Can the user figure out how to user this?
+  3. Can our engineers build this?
+  4. Can our stakeholders support this?
+
+### Prototypes
+- Use prototypes to run experiments on ideas rather building out an entire product
+  - Less time and money required
+- There are different types of prototypes for different risks and situations
+- Strong product teams usually test 10 - 20 (or more) product ideas each week
+- Prototypes are not production ready products, they are simply an inexpensive way to help a company or product team validate or invalidate ideas quickly
+
+### Product Delivery
+- Prototypes are meant to show that an idea is worth pursuing and can be delivered to customers
+  - Ie: The necessary scale, performance, reliability, fault tolerance, security, privacy, internationalization, and localization have been performed and the product works as advertised
+- The goal of the delivery process is to build and ship a production-quality tech product
+
+### Products and Product/Market Fit
+- The smallest possible product that will meet the needs of a given market of customers
+- These are actual products that are the output of the delivery process
+- While the discovery process determine the product that needs to be built, it is the delivery process that actually builds, test, and releases the product
+
+### Product Vision
+- Product vision is the long-term view of the product
+  - Generally 2 - 10 years into the future
+- Views of a product by time duration
+  - Prototype are quick short-term experiments during discovery
+  - Product is the result of building the final product that was thought up during discovery in order to achieve product/market fit
+  - Product vision the overarching quide to what is worked on and the discovery and build process work towards delivering that vision
+
+### MVP
+- Term `MVP` was first coined in 2001 by Eric Robinson and made popular by Eric Ries in his 2011 book *The Lean Startup*
+- Often teams spend months building an MVP
+  - Teams could learn the same stuff in a matter of days or sometimes even hours
+- The confusion comes from the letter *P* (Product)
+  - Teams take this word to mean that they should release an actual product. In other words, a really solution that can be sold and that a business can be run on
+  - The MVP should be a *Prototype* and not a product
+- Building an actual product to learn from is a waste of time and money and is also the opposite of **Lean**
+- Usuing the term *prototype* for work-in progress and *product* for finished deliverables is clearer to teams members, leadership, the company as a whole, and customers
