@@ -2,7 +2,6 @@
 title: "Part One"
 weight: 1
 draft: false
-# bookCollapseSection: true
 identifier: inspired-part-one
 menu:
   docs:
